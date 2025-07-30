@@ -1,0 +1,150 @@
+/* Fuente general */
+body {
+  background-color: #1D1E26;
+  font-family: 'Istok Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Logo arriba a la izquierda */
+body > a > img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 100px;
+}
+
+/* Contenedor del login */
+div {
+  background-color: #1D1E26;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Botón de Google */
+button img.google-icon {
+  width: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+button {
+  background-color: white;
+  color: #1D1E26;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #7b7bff;
+  color: white;
+}
+
+/* Separador "or" */
+div > p {
+  margin: 20px 0;
+  color: #DCC7DD;
+  font-size: 0.9rem;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #DCC7DD;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #3A3B4E;
+  color: white;
+}
+
+form input::placeholder {
+  color: #aaa;
+}
+
+form button[type="submit"] {
+  background: linear-gradient(90deg, #b04aff, #7b7bff);
+  color: white;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+form button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* Enlace a crear cuenta */
+div:last-child {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #DCC7DD;
+}
+
+div:last-child a {
+  color: #AA44AC;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+div:last-child a:hover {
+  text-decoration: underline;
+}
+
+.esferas_dos {
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.elipse_una {
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.esferas_dos-dos {
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  right: -5%;
+  transform: rotate(170deg);
+}
+
+

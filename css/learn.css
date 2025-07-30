@@ -1,0 +1,128 @@
+    body {
+      background-color: #1D1E26;
+      font-family: 'Istok Web', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: white;
+      padding: 2rem;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #b04aff;
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      color: #DCC7DD;
+      line-height: 1.6;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .feature {
+      background-color: #2A2B38;
+      padding: 1.5rem;
+      border-radius: 12px;
+      flex: 1 1 250px;
+      max-width: 300px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+
+    .feature h3 {
+      color: #AA44AC;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature p {
+      font-size: 0.9rem;
+    }
+
+    .btn-back {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(90deg, #b04aff, #7b7bff);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .btn-back:hover {
+      opacity: 0.8;
+    }
+
+
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    a{
+        color: #DCC7DD;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+}
+
+.nav__purple {
+    color: #AA44AC;
+    margin-bottom: 4px;
+}
+.nav__purple-log {
+    color: #AA44AC;
+    padding-right: 30px;
+}
+
+#logo {
+    width: 7rem;
+    margin-right: 3rem;
+}
+
+#nav__flex-div {
+        display: flex;
+        align-items: center;
+}
+
+#nav__flex-div-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.esferas_dos {
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.elipse_una {
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.esferas_dos-dos {
+  width: 200px;
+  position: absolute;
+  bottom: 0px;
+  right: -5%;
+  transform: rotate(170deg);
+}
